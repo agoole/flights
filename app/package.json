@@ -1,0 +1,18 @@
+{
+  "name": "flights",
+  "version": "1.0.1",
+  "description": "Flightplan modification allowing for individual flights to be self-contained in seperate files",
+  "author": "Francois Lessard <agoole@gmail.com>",
+  "bin": {
+  "module-name": "./bin/module-name"
+},
+  "scripts": {
+    "start": "node main.js"
+  },
+  "main": "lib/foo.js",
+  "dependencies": {
+    "flightplan": "*"
+  },
+  "subdomain": "foobar",
+  "license": "MIT"
+}
